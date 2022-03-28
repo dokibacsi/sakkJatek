@@ -1,0 +1,26 @@
+main{
+    display: grid;
+    grid-template-areas: "he he he he"
+                         "di di di di"
+                         "ar ar ar ar";
+}
+
+header{
+    grid-area: he;
+}
+
+#jatekter{
+    display: grid;
+    grid-template-columns: 60px 60px 60px;
+    grid-template-rows: 60px 60px 60px;
+    grid-gap: 10px;
+}
+
+.divek{
+    grid-area: di;
+    border: 3px solid gray;
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    margin: 10px;
+}
